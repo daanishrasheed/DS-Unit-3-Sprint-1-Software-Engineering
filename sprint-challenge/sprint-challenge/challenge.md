@@ -262,9 +262,14 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+
+  Code reviews are an important way to ensure that code is written so it is easily understood and reproducible. While an employee may leave a company, the code they write stays. Reviewing code regulary helps to ensure that the code can be maintained after the employee leaves. It also helps the code writer and the reviewer become more conciencious of readability and reproducability.
+
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+
+  Containers create a virtual environment that standardizes the operating system and runtime. You can then run scripts on different operating systems without worrying about which OS the code was originally written on. You can also control versions of the programming language and packages that the script is dependent on as this can also cause issues. Containers help with reproducibility across platforms
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
